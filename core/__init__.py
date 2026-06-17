@@ -14,6 +14,7 @@ from .models import (
     StandardAccount,
     Event,
 )
+from .event_engine import EventEngine
 
 __all__ = [
     "OrderSide",
@@ -26,4 +27,5 @@ __all__ = [
     "StandardPosition",
     "StandardAccount",
     "Event",
+    "EventEngine",
 ]
